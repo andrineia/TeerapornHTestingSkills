@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_medium">13dp</dimen>
+    <dimen name="margin_small">7dp</dimen>
+    <dimen name="margin_smaller">5dp</dimen>
+    <dimen name="margin_smaller_4">5dp</dimen>
+    <dimen name="margin_large">15dp</dimen>
+    <dimen name="margin_vlarge">30dp</dimen>
+    <dimen name="margin_vlarger">55dp</dimen>
+    <dimen name="margin_more">5dp</dimen>
+    <dimen name="margin_small_more">10dp</dimen>
+    <dimen name="padding_medium">11dp</dimen>
+    <dimen name="text_small">14sp</dimen>
+    <dimen name="text_smaller">12sp</dimen>
+    <dimen name="text_medium">16sp</dimen>
+    <dimen name="text_large">18sp</dimen>
+    <dimen name="text_vlarge">20sp</dimen>
+    <dimen name="text_vlarger">28sp</dimen>
+
+
+
+    <dimen name="text_vsmall">10sp</dimen>
+    <dimen name="text_vvsmall">8sp</dimen>
+    <dimen name="text_vmedium">15sp</dimen>
+    <dimen name="text_super">30sp</dimen>
+
+</resources>

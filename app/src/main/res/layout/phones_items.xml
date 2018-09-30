@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="@dimen/margin_small"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/lnBanner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imgBanner"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/image_placeholder"
+                android:visibility="visible" />
+
+            <LinearLayout
+                android:id="@+id/lnBannerDetails"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="@dimen/padding_medium">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tvBannername"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:lines="1"
+                        android:layout_weight="1"
+                        android:text="Banner name"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="@dimen/text_medium"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:id="@+id/heart"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:background="@drawable/heart"
+                         />
+
+                </LinearLayout>
+
+               <TextView
+                   android:id="@+id/tvBannerDesc"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:lines="2"
+                   android:text="Descriptions"
+                   android:textColor="@color/colorBlack"
+                   android:textSize="@dimen/text_small" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="bottom"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tvBannerPrice"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:lines="1"
+                        android:textStyle="bold"
+                        android:text="Descriptions"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="@dimen/text_small" />
+
+                    <TextView
+                        android:id="@+id/tvBannerRatting"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="right"
+                        android:lines="1"
+                        android:text="4.6"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="@dimen/text_small" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>
